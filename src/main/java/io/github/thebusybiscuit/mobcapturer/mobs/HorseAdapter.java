@@ -23,8 +23,8 @@ public class HorseAdapter extends AbstractHorseAdapter<Horse> {
     public List<String> getLore(JsonObject json) {
         List<String> lore = super.getLore(json);
 
-        lore.add(ChatColor.GRAY + "Style: " + ChatColor.WHITE + ChatUtils.humanize(json.get("style").getAsString()));
-        lore.add(ChatColor.GRAY + "Color: " + ChatColor.WHITE + ChatUtils.humanize(json.get("color").getAsString()));
+        lore.add(ChatColor.GRAY + "品種: " + ChatColor.WHITE + ChatUtils.humanize(json.get("style").getAsString()));
+        lore.add(ChatColor.GRAY + "顏色: " + ChatColor.WHITE + ChatUtils.humanize(json.get("color").getAsString()));
 
         return lore;
     }
