@@ -6,3 +6,5 @@
 .project
 .classpath
 dependency-reduced-pom.xml
+Maven-Compile.bat
+mvn.log
